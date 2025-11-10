@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--название сайта-->
+    <title>Volux</title>
+    <!--подключение шрифта DM Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!--подключение CSS файла-->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <script>function setZoomLevel(level) {  
+    document.body.style.transform = `scale(${level})`;  
+    document.body.style.transformOrigin = '0 0';  
+    }  
+    </script>
+   <header class="header">
+        <!--контейнер для логотипа-->
+        <article class="header_logo">
+        <!--логотип-->
+        <img src="./img/Navbar/logo.png" alt="logotype">
+        </article>
+        <!--меню навигации по сайту-->
+        <nav class="header_navigation">
+            <!--гиперссылки для навигации-->
+            <a href="#"><h4>Home Page</h4></a>
+            <a href="#"><h4>About us</h4></a>
+            <a href="#"><h4>Projects</h4></a>
+            <a href="#"><h4>Careers</h4></a>
+            <a href="#"><h4>Blog</h4></a>
+            <a href="#"><img src="./img/Navbar/Button.png" alt="button"></a>
+        </nav>
+    </header> 
+    <section class="mainsite">
+        <!--контейнер для текста основной части первого слайда-->
+        <div class="mainsite_text">
+            <!--используется h1 для обозначения заголовка-->
+            <h1 class="mainsite_text_1">Medium length hero headline goes here</h1>
+            <!--h4 для основного текста-->
+            <h4 class="mainsite_text_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius eros elementum 
+                tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,<br>ut commodo diam libero vitae erat.</h4>
+        </div>
+        <!--png на главной странице-->
+        <div class="mainsite_img">
+            <img src="./img/Header/header1.png" alt="1" class="mainsite_img_1">
+            <img src="./img/Header/header2.png" alt="2" class="mainsite_img_2">
+            <img src="./img/Header/header3.png" alt="3" class="mainsite_img_1">
+            <img src="./img/Header/header4.png" alt="4" class="mainsite_img_2">
+            <img src="./img/Header/header5.png" alt="5" class="mainsite_img_1">
+        </div>
+    </section>
+
+
+
+    <!--секция для текста "about us"-->
+    <section class="secondsite_up">
+        <div>
+        <img src="./img/Layout/box.png" alt="box">
+        <h3 class="secondsite_up_high">Medium length section</h3>
+        <h4 class="secondsite_up_lower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h4>
+        </div>
+        <div>
+        <img src="./img/Layout/box.png" alt="box">
+        <h3 class="secondsite_up_high">Medium length section</h3>
+        <h4 class="secondsite_up_lower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h4>
+        </div>
+        <div>
+        <img src="./img/Layout/box.png" alt="box">
+        <h3 class="secondsite_up_high">Medium length section</h3>
+        <h4 class="secondsite_up_lower">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</h4>
+        </div>
+    </section>
+    <section class="secondsite_down">
+        <h2 class="secondsite_down_1">Long heading is what you see here in this feature section</h2>
+        <h4 class="secondsite_down_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</h4>
+    </section>
+
+    <section class="third">
+            <!--заголовок-->
+        <header class="head">
+            <h1 class="head_title">Featured Projects</h1>
+        </header>
+        <!--основная часть-->
+        <article class="img_list">
+            <section class="cart">
+                <img class="cart_img" src="./img/photo_1.png" alt="img_1">
+                <div class="section_text_1">
+                    <h2>Project Name</h2>
+                    <p>Short Description</p>
+                </div>
+            </section>
+            <section class="cart">
+                <img class="cart_img" src="./img/photo_2.png" alt="img=2">
+                <div class="section_text_2">
+                    <h2>Project Name</h2>
+                    <p>Short Description</p>
+                </div>
+            </section>
+            <section class="cart">
+                <img class="cart_img" src="./img/photo_3.png" alt="img=3">
+                <div class="section_text_3">
+                    <h2>Project Name</h2>
+                    <p>Short Description</p>
+                </div>
+            </section>
+            <section class="cart">
+                <img class="cart_img" src="./img/photo_4.png" alt="img=4">
+                <div class="section_text_4">
+                    <h2>Project Name</h2>
+                    <p>Short Description</p>
+                </div>
+            </section>
+            <section class="cart">
+                <img class="cart_img" src="./img/photo_5.png" alt="img=5">
+                <div class="section_text_5">
+                    <h2>Project Name</h2>
+                    <p>Short Description</p>
+                </div>
+            </section>
+        </article>
+    </section>
+
+    <section class="careers">
+        <!--навигация по вкладкам на слайде "careers"-->
+        <nav class="careers_navigation">
+            <a href="#vkladka_1"><img src="./img/Layout/vkladka_gray.png" alt=""></a>
+            <a href="#vkladka_2"><img src="./img/Layout/vkladka_gray.png" alt=""></a>
+            <a href="#vkladka_3"><img src="./img/Layout/vkladka_gray.png" alt=""></a>
+            <a href="#vkladka_4"><img src="./img/Layout/vkladka_gray.png" alt=""></a>
+            <a href="#vkladka_5"><img src="./img/Layout/vkladka_gray.png" alt=""></a>
+        </nav>
+        <!--секция для первой вкладки-->
+        <section id="vkladka_1" class="careers_vkladka_1">
+            <div class="careers_vkladka_1_img">
+                <img src="./img/Layout/vkladka_1.png" alt="">
+                
+            </div>
+            <!--контейнер для текста на первой вкладки-->
+            <div class="careers_vkladka_1_txt">
+                <img class="careers_vkladka_1_img_2" src="./img/Layout/nazvanie_vkladki.png" alt="">
+                <h2 class="careers_vkladka_1_txt_1">Medium length section<br>heading goes here</h2>
+                <h4 class="careers_vkladka_1_txt_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> 
+                    Suspendisse varius enim in eros elementum tristique.<br>
+                    Duis cursus, mi quis viverra ornare, eros dolor interdum <br>
+                    nulla, ut commodo diam libero vitae erat.
+                </h4>
+            </div>
+        </section>
+        <!--далее по подобию первой вкладки-->
+        <section id="vkladka_2" class="careers_vkladka_2">
+            <div class="careers_vkladka_2_txt">
+                <img class="careers_vkladka_2_img_2" src="./img/Layout/nazvanie_vkladki.png" alt="">
+                <h2 class="careers_vkladka_2_txt_1">Medium length section<br>heading goes here</h2>
+                <h4 class="careers_vkladka_2_txt_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> 
+                    Suspendisse varius enim in eros elementum tristique.<br>
+                    Duis cursus, mi quis viverra ornare, eros dolor interdum <br>
+                    nulla, ut commodo diam libero vitae erat.
+                </h4>
+            </div>
+            <div class="careers_vkladka_2_img">
+                <img src="./img/Layout/vkladka_2.png" alt="">
+            </div>
+        </section>
+        <section id="vkladka_3" class="careers_vkladka_3">
+            <div class="careers_vkladka_3_img">
+                <img src="./img/Layout/vkladka_3.png" alt="">
+                
+            </div>
+            <div class="careers_vkladka_3_txt">
+                <img class="careers_vkladka_3_img_2" src="./img/Layout/nazvanie_vkladki.png" alt="">
+                <h2 class="careers_vkladka_3_txt_1">Medium length section<br>heading goes here</h2>
+                <h4 class="careers_vkladka_3_txt_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> 
+                    Suspendisse varius enim in eros elementum tristique.<br>
+                    Duis cursus, mi quis viverra ornare, eros dolor interdum <br>
+                    nulla, ut commodo diam libero vitae erat.
+                </h4>
+            </div>
+        </section>
+        <section id="vkladka_4" class="careers_vkladka_4">
+            <div class="careers_vkladka_4_txt">
+                <img class="careers_vkladka_4_img_2" src="./img/Layout/nazvanie_vkladki.png" alt="">
+                <h2 class="careers_vkladka_4_txt_1">Medium length section<br>heading goes here</h2>
+                <h4 class="careers_vkladka_4_txt_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> 
+                    Suspendisse varius enim in eros elementum tristique.<br>
+                    Duis cursus, mi quis viverra ornare, eros dolor interdum <br>
+                    nulla, ut commodo diam libero vitae erat.
+                </h4>
+            </div>
+            <div class="careers_vkladka_4_img">
+                <img src="./img/Layout/vkladka_4.png" alt="">
+            </div>
+        </section>
+        <section id="vkladka_5" class="careers_vkladka_5">
+            <div class="careers_vkladka_5_img">
+                <img src="./img/Layout/vkladka_5.png" alt="">
+                
+            </div>
+            <div class="careers_vkladka_5_txt">
+                <img class="careers_vkladka_5_img_2" src="./img/Layout/nazvanie_vkladki.png" alt="">
+                <h2 class="careers_vkladka_5_txt_1">Medium length section<br>heading goes here</h2>
+                <h4 class="careers_vkladka_5_txt_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> 
+                    Suspendisse varius enim in eros elementum tristique.<br>
+                    Duis cursus, mi quis viverra ornare, eros dolor interdum <br>
+                    nulla, ut commodo diam libero vitae erat.
+                </h4>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <!--основная информация подвала-->
+        <div class="footer_content">
+            <div class="footer_main">
+                <h1 class="footer_main_h">Medium length heading goes here.</h1>
+                <div class="section_list">
+                    <section class="medium_section_1">
+                        <img src="./img/Vector.png" alt="vector">
+                        <h2>Medium length section</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in</p>
+                    </section>
+                    <section class="medium_section_2">
+                        <img src="./img/Vector.png" alt="vector">
+                        <h2>Medium length section</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in</p>
+                    </section>
+                    <section class="medium_section_3">
+                        <img src="./img/Vector.png" alt="vector">
+                        <h2>Medium length section</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in</p>
+                    </section>
+                    <section class="medium_section_4">
+                        <img src="./img/Vector.png" alt="vector">
+                        <h2>Medium length section</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in</p>
+                    </section>
+                </div>
+            </div>
+        <!--контактная информация-->
+            <div class="footer_bottom">
+                <div class="footer_bottom_main">
+                    <div class="footer_bottom_1">
+                        <img src="./img/logo.png" alt="">
+                        <div class="info">
+                            <ul class="info_list_1">
+                                <p>Address:</p>
+                                <p>Level 1, 124 Education Figma Sreet</p>
+                            </ul>
+                            <ul class="info_list_2">
+                                <p>Contact:</p>
+                                <p>1234 567 9890</p>
+                                <p>Joyoluzzz@gmail.com</p>
+                            </ul>
+                        </div>
+                        <div class="logo_list">
+                            <img src="./img/facebook.png" alt="facebook_logo">
+                            <img src="./img/instagram.png" alt="instagram_logo">
+                            <img src="./img/twitter.png" alt="twitter_logo">
+                            <img src="./img/in.png" alt="in_logo">
+                        </div>
+                    </div>
+                    <!--навигация-->
+                    <nav class="nav_menu">
+                        <ul class="nav_menu_1">
+                            <a href="#">Home Page</a>
+                            <a href="#">About us</a>
+                            <a href="#">Project Page</a>
+                            <a href="#">project page single</a>
+                        </ul>
+                        <ul class="nav_menu_2">
+                            <a href="#">Contact us Page</a>
+                            <a href="#">Careers Page</a>
+                            <a href="#">Blog Page</a>
+                            <a href="#">Block Page single</a>
+                        </ul>
+                    </nav>
+                </div>
+                <img src="./img/line.png" alt="line">
+                <!--доп. информация-->
+                <div class="meta">
+                    <p class="corporation">© 2023 Joou Designs, All rights reserved.</p>
+                    <a class="privacy_policy" href="#">Privacy Policy</a>
+                    <a class="terms_of_sirvice" href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
