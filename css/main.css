@@ -1,0 +1,471 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans';
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/*main*/
+
+
+
+.header_logo{
+    margin: 20px 547px 0px 64px;
+}
+.header{
+    display: flex;
+}
+.header_navigation{
+    margin: 20px 64px 0px 0px;
+    display: flex;
+    width: 676px;
+    justify-content: space-between;
+}
+.mainsite_text{
+    display: block;
+    margin: 100px 334px 0px 334px;
+    text-align: center;
+}
+.mainsite_text_1{
+    font-size: 64px;
+    width: 772px;
+}
+.mainsite_text_2{
+    font-size: 16px;
+    width: 772px;
+}
+.mainsite_img{
+    display: flex;
+    margin: 64px 0px 112px 0px;
+    width: 1440px;
+    justify-content: space-between;
+    
+}
+.mainsite_img_1{
+    height: 200px;
+    margin-top: 60px;
+}
+
+
+
+/* secondsite */
+
+
+
+.secondsite_up{
+    margin: 160px 80px 0px 80px;
+    width: 1280px;
+    height: 194px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.secondsite_up_high{
+    font-size: 24px;
+    color: #111111;
+    font-style: bold;
+}
+.secondsite_up_lower{
+    font-size: 16px;
+    color: #4f4f4f;
+}
+.secondsite_down{
+    width: 1280px;
+    margin: 176px 80px 160px 80px;
+    display: flex;
+}
+.secondsite_down_1{
+    width: 600px;
+    height: 96px;
+    font-size: 40px;
+    color: #111111;
+    font-style: bold;
+}
+.secondsite_down_2{
+    width: 600px;
+    height: 135px;
+    font-size: 18px;
+    color: #4f4f4f;
+}
+
+
+
+
+/* careers */
+
+
+
+
+.careers{
+    padding-top: 1px;
+    width: 1280px;
+    height: 4000px;
+    background-color: #111111;
+    margin-left: 80px;
+    color: #ffffff;
+}
+.careers_navigation{
+    margin: 60px 113px 0px 64px;
+    width: 1103px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.careers_vkladka_1{
+    display: flex;
+    margin: 120px 69px 0px 64px;
+    width: 1147px;
+    height: 520px;
+}
+.careers_vkladka_1_img{
+    height: 520px;
+    width: 600px;
+}
+.careers_vkladka_1_img_2{
+    height: 29px;
+    width: 77px;
+    margin-bottom: 0px;
+}
+.careers_vkladka_1_txt{
+    padding: 123.5px 0px 123.5px 80px;
+    display:flex;
+    flex-direction: column;
+    height: 273px;
+    width: 468px;
+}
+.careers_vkladka_1_txt_1{
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    width: 468px;
+    height: 96px;
+}
+.careers_vkladka_1_txt_2{
+    margin-top: 24px;
+    font-size: 18px;
+    width: 468px;
+    height: 108px;
+}
+.careers_vkladka_2{
+    display: flex;
+    margin: 220px 69px 0px 64px;
+    width: 1147px;
+    height: 520px;
+}
+.careers_vkladka_2_img{
+    height: 520px;
+    width: 600px;
+}
+.careers_vkladka_2_img_2{
+    height: 29px;
+    width: 77px;
+    margin-bottom: 0px;
+}
+.careers_vkladka_2_txt{
+    padding: 123.5px 80px 123.5px 0px;
+    display:flex;
+    flex-direction: column;
+    height: 273px;
+    width: 468px;
+}
+.careers_vkladka_2_txt_1{
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    width: 468px;
+    height: 96px;
+}
+.careers_vkladka_2_txt_2{
+    margin-top: 24px;
+    font-size: 18px;
+    width: 468px;
+    height: 108px;
+}
+.careers_vkladka_3{
+    display: flex;
+    margin: 220px 69px 0px 64px;
+    width: 1147px;
+    height: 520px;
+}
+.careers_vkladka_3_img{
+    height: 520px;
+    width: 600px;
+}
+.careers_vkladka_3_img_2{
+    height: 29px;
+    width: 77px;
+    margin-bottom: 0px;
+}
+.careers_vkladka_3_txt{
+    padding: 123.5px 0px 123.5px 80px;
+    display:flex;
+    flex-direction: column;
+    height: 273px;
+    width: 468px;
+}
+.careers_vkladka_3_txt_1{
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    width: 468px;
+    height: 96px;
+}
+.careers_vkladka_3_txt_2{
+    margin-top: 24px;
+    font-size: 18px;
+    width: 468px;
+    height: 108px;
+}
+.careers_vkladka_4{
+    display: flex;
+    margin: 220px 69px 0px 64px;
+    width: 1147px;
+    height: 520px;
+}
+.careers_vkladka_4_img{
+    height: 520px;
+    width: 600px;
+}
+.careers_vkladka_4_img_2{
+    height: 29px;
+    width: 77px;
+    margin-bottom: 0px;
+}
+.careers_vkladka_4_txt{
+    padding: 123.5px 80px 123.5px 0px;
+    display:flex;
+    flex-direction: column;
+    height: 273px;
+    width: 468px;
+}
+.careers_vkladka_4_txt_1{
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    width: 468px;
+    height: 96px;
+}
+.careers_vkladka_4_txt_2{
+    margin-top: 24px;
+    font-size: 18px;
+    width: 468px;
+    height: 108px;
+}
+.careers_vkladka_5{
+    display: flex;
+    margin: 220px 69px 0px 64px;
+    width: 1147px;
+    height: 520px;
+}
+.careers_vkladka_5_img{
+    height: 520px;
+    width: 600px;
+}
+.careers_vkladka_5_img_2{
+    height: 29px;
+    width: 77px;
+    margin-bottom: 0px;
+}
+.careers_vkladka_5_txt{
+    padding: 123.5px 0px 123.5px 80px;
+    display:flex;
+    flex-direction: column;
+    height: 273px;
+    width: 468px;
+}
+.careers_vkladka_5_txt_1{
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    width: 468px;
+    height: 96px;
+}
+.careers_vkladka_5_txt_2{
+    margin-top: 24px;
+    font-size: 18px;
+    width: 468px;
+    height: 108px;
+}
+
+.third{
+    background-color: black;
+    width: 1440px;
+    height: 4067px;
+}
+.head_title{
+    height: 67px;
+    width: 768px;
+    font-size: 56px;
+    text-align: center;
+    color: #F2F2F2;
+    margin: 160px 336px 80px 336px;
+    padding-top: 160px;
+}
+.img_list{
+    color: #F2F2F2;
+    margin: 80px;
+}
+.cart{
+    position: relative;
+    width: 1280px;
+    height: 656px;
+    margin-bottom: 80px;
+}
+.section_text_1{
+    position: absolute;
+    left: 20px;
+    top: 545px;
+}
+.section_text_2{
+    position: absolute;
+    left: 20px;
+    top: 545px;
+}
+.section_text_3{
+    position: absolute;
+    left: 20px;
+    top: 545px;
+}
+.section_text_4{
+    position: absolute;
+    left: 20px;
+    top: 545px;
+}
+.section_text_5{
+    position: absolute;
+    left: 20px;
+    top: 545px;
+}
+.cart_img{
+    border-radius: 15px;
+}
+.footer_content{
+    background-color: black;
+    color: #F2F2F2;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 1px;
+    width: 1440px;
+}
+.footer_main{
+    width: 1296px;
+    height: 412px;
+    margin: 80px 72px 41px 72px;
+    background: linear-gradient(to right, black, #637e0b);
+    border-radius: 15px;
+    
+}
+.footer_main_h{
+    padding: 72px 643px 56px 34px;
+}
+.section_list{
+    width: 1228px;
+    height: 164px;
+    display: flex;
+    justify-content: space-between;
+}
+.medium_section_1{
+    padding: 0px 48px 72px 34px;
+    width: 271px;
+    height: 164px;
+}
+.medium_section_2{
+    width: 271px;
+    height: 164px;
+}
+.medium_section_3{
+    width: 271px;
+    height: 164px;
+}
+.medium_section_4{
+    width: 271px;
+    height: 164px;
+}
+.footer_bottom{
+    margin: 80px 80px 80px 80px;
+}
+.info{
+    width: 800px;
+    height: 265px;
+}
+.info_list_1{
+    width: 800px;
+    height: 46px;
+    padding: 10px 0px 24px 0px;
+}
+.info_list_2{
+    width: 800px;
+    height: 67px;
+    padding: 10px 0px 48px 0px; 
+}
+.logo_list{
+    width: 132px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_bottom_main{
+    margin-bottom: 100px;
+    width: 800px;
+    height: 300px;
+    display: flex;
+}
+
+.nav_menu{
+    width: 480px;
+    height: 168px;
+    margin-top: 88px;
+    margin-bottom: 48px;
+    display: flex;
+    a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    }
+}
+.nav_menu_1{
+    width: 141px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: aqua;
+}
+.nav_menu_2{
+    width: 141px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.line{
+    padding-top: 100px;
+}
+.meta{
+    display: flex;
+    padding-bottom: 300px;
+    a{
+        color: #aad813;
+        text-decoration: underline;
+    }
+}
+.corporation{
+    width: 365px;
+    height: 21px;
+    margin-right: 650px;
+}
+.privacy_policy{
+    width: 140px;
+    height: 21px;
+    margin-top: 15px;
+    margin-right: 0px;
+}
+.terms_of_sirvice{
+    width: 140px;
+    height: 21px;
+    margin-top: 15px;
+}
